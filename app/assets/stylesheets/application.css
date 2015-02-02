@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.some-text {
+
+	font-size: 35px;
+	text-align: center;
+}
+
+table {
+
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFCC;
+}
+
+table, th, td {
+
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+
+	height: 30px;
+	background-color: #8A8A5C;
+	font-family: Abel;
+	font-size: 18px;
+	color: 5C5C4A;
+	text-align: center;
+}
+
+td {
+
+	text-align: center;
+	padding: 5 px;
+	font-color: #141410;
+	font-size: 15px;
+	font-family: Abel;
+	opacity: .95;
+}
+
+h1 {
+
+	text-align: center;
+	padding: 10px;
+	font-family: Abel;
+	font-size: 45px;
+	color: #141410;
+}
+
+body {
+
+	background-image: url("pinwheel.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: fixed;
+	background-size: 1243px;
+	padding: 100px;
+}
+
+.jumbotron{
+	opacity: .95;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-button {
+	text-align: center;
+}
+
+.paragraph-text {
+	font-family: Abel;
+	font-size: 20px;
+	text-align: center;
+}
+
+.quote {
+	text-align: center;
+}
+
+.btn.btn-primary.btn-lg {
+	color: white;
+}
+
+a:link, a:visited, a:hover, a:active; {
+	text-decoration: none;
+	font-size: 15px;
+	color: gold;
+	background-color: transparent;
+	opacity: .95;
+}
+
