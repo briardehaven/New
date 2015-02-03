@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+  devise_for :users, :controllers => { :registrations => "registrations"}
+  
   get '/home' => 'static_pages#home'
 
   get '/about' => 'static_pages#about'
 
   get 'home' => 'users#index'
+
+  root to: 'users#index'
 
   resources :pins
 
