@@ -103,3 +103,9 @@ a:link, a:visited, a:hover, a:active; {
 	opacity: .95;
 }
 
+.Edit-text {
+
+	text-align: center;
+	font-size: 25px;
+	font-family: Abel;
+}
